@@ -10,3 +10,6 @@ git submodule add https://github.com/DucMinhNgo/sub-module-child-1 src/library
 # Remove subtree
 git rm -rf my-library
 rm -rf .git/modules/my-library
+
+# Pull
+git subtree pull --prefix=sub-module-child-1 https://github.com/DucMinhNgo/sub-module-child-1 <remote_branch_name> --squash
