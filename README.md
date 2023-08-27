@@ -12,5 +12,5 @@ git rm -rf my-library
 rm -rf .git/modules/my-library
 
 # Pull
-git subtree pull --prefix=./sub-module-child-1 --squash https://github.com/DucMinhNgo/sub-module-child-1 main
+git subtree pull --prefix=./ --squash https://github.com/DucMinhNgo/sub-module-child-1 main
 git subtree pull --prefix=<folder>/<repo_name> --squash <git_url> <branch>
