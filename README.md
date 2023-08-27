@@ -12,4 +12,5 @@ git rm -rf my-library
 rm -rf .git/modules/my-library
 
 # Pull
+git submodule update --init --recursive
 git submodule update --recursive --remote
